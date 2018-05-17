@@ -1,0 +1,35 @@
+/*.places h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    color: #484848;
+}*/
+.places h2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: bottom;
+    flex-direction: column;
+    text-align: center;
+    color: #484848;
+    font-size: 30px;
+    align-items: center;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    position: absolute;
+}
+.places h1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 30px;
+    color: #484848;
+    margin-bottom: 40px;
+    position: absolute;
+}
